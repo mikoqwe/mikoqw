@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Business Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #2980b9;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-item {
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            flex-basis: calc(33.333% - 40px);
+            border-radius: 5px;
+        }
+
+        .project-item h3 {
+            margin-top: 0;
+            font-size: 22px;
+            color: #2c3e50;
+        }
+
+        .project-item p {
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .project-item {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .project-item {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Business Name</h1>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-item">
+                <h3>Project 1</h3>
+                <p>Description of your first project. Highlight key features or benefits.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 2</h3>
+                <p>Description of your second project. Mention what makes it stand out.</p>
+            </div>
+            <div class="project-item">
+                <h3>Project 3</h3>
+                <p>Description of your third project. Focus on results or goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>To learn more or collaborate, reach out to me:</p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Business Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
